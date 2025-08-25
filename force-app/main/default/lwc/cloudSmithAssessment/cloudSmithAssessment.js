@@ -2,7 +2,7 @@ import { LightningElement,track } from 'lwc';
 import checkHoliday from '@salesforce/apex/IDHolidayChecker.checkHoliday';
 
 export default class CloudSmithAssessment extends LightningElement {
-        @track idNumber = '';
+    @track idNumber = '';
     @track result;
     @track errorMessage = '';
 
